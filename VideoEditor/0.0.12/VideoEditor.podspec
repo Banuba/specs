@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.resources = 'Pod/Assets/*'
 
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'AVKit', 'OpenGLES', 'CoreMedia', 'CoreVideo', 'GLKit', 'Photos'
-  s.vendored_frameworks = 'VideoEditor.framework'
+  s.vendored_frameworks = 'VideoEditor.xcframework'
   s.module_name = 'VideoEditor'
 
   #s.static_framework = true

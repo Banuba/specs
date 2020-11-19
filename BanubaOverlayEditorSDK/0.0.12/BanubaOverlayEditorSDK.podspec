@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.resources = 'Pod/Assets/*'
 
   s.frameworks = 'UIKit', 'Foundation', 'OpenGLES', 'CoreMedia', 'CoreVideo'
-s.vendored_frameworks = 'BanubaOverlayEditorSDK.framework'
+s.vendored_frameworks = 'BanubaOverlayEditorSDK.xcframework'
   s.module_name = 'BanubaOverlayEditorSDK'
 
   #s.static_framework = true

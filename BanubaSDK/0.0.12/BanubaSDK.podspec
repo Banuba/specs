@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.resources = 'Pod/Assets/*'
 
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'AVKit', 'OpenGLES', 'CoreMedia', 'CoreVideo', 'GLKit', 'Photos'
-  s.vendored_frameworks = 'BanubaSDK.framework'
+  s.vendored_frameworks = 'BanubaSDK.xcframework'
   s.module_name = 'BanubaSDK'
 
   #s.static_framework = true
