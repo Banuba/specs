@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.resources = 'Pod/Assets/*'
 
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'LocalAuthentication'
-  s.vendored_frameworks = 'BanubaAudioBrowserSDK.framework'
+  s.vendored_frameworks = 'BanubaAudioBrowserSDK.xcframework'
   s.module_name = 'BanubaAudioBrowserSDK'
 
   #s.static_framework = true
