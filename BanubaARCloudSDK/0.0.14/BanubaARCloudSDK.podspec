@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   # s.resources = 'Pod/Assets/*'
 
-  s.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration'
+  s.frameworks = 'Foundation', 'UIKit'
   s.vendored_frameworks = 'BanubaARCloudSDK.xcframework'
   s.module_name = 'BanubaARCloudSDK'
 
