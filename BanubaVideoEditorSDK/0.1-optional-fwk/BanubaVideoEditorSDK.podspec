@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   s.module_name = 'BanubaVideoEditorSDK'
 
   s.subspec 'BanubaARCloudSDK' do |subspec|
-    spec.source_files   = "BanubaVideoEditorSDK/BanubaARCloudSDK/**/*.{h,m,swift}"
-    spec.public_header_files = "BanubaVideoEditorSDK/BanubaARCloudSDK/*.{h}"
-    spec.frameworks = 'Foundation', 'UIKit'
-    spec.platform     = :ios, '11.0'
-    spec.header_dir = "BanubaARCloudSDK"
+    subspec.frameworks = 'Foundation', 'UIKit'
+    subspec.platform     = :ios, '11.0'
+    subspec.source_files   = "BanubaVideoEditorSDK/BanubaARCloudSDK/**/*.{h,m,swift}"
+    subspec.public_header_files = "BanubaVideoEditorSDK/BanubaARCloudSDK/*.{h}"
+    subspec.header_dir = "BanubaARCloudSDK"
   end
 
   #s.static_framework = true
