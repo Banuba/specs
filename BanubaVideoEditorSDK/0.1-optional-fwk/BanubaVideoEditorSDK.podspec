@@ -20,5 +20,13 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BanubaVideoEditorSDK.xcframework'
   s.module_name = 'BanubaVideoEditorSDK'
 
+  s.subspec 'BanubaARCloudSDK' do |subspec|
+    spec.source_files   = "BanubaVideoEditorSDK/BanubaARCloudSDK/**/*.{h,m,swift}"
+    spec.public_header_files = "BanubaVideoEditorSDK/BanubaARCloudSDK/*.{h}"
+    spec.frameworks = 'Foundation', 'UIKit'
+    spec.platform     = :ios, '11.0'
+    spec.header_dir = "BanubaARCloudSDK"
+  end
+
   #s.static_framework = true
 end
