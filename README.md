@@ -1,2 +1,2 @@
 # specs
-CocoaPod spec private repo
+CocoaPod spec public repo
