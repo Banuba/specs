@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/Banuba/BanubaVideoEditorSDK-iOS"
   s.license          = 'MIT'
   s.author           = { "Nickolai" => "nn@banuba.com" }
-  s.source           = { :git => "git@github.com:Banuba/BanubaVideoEditorSDK-iOS.git", :branch => 'optional-fwk', :tag => s.version }
+  s.source           = { :git => "https://github.com/Banuba/BanubaVideoEditorSDK-iOS.git", :branch => 'optional-fwk', :tag => s.version }
   s.social_media_url = 'https://banuba.com'
 
   s.platform     = :ios, '11.0'
@@ -19,14 +19,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'AVKit', 'OpenGLES', 'CoreMedia', 'CoreVideo', 'GLKit', 'Photos'
   s.vendored_frameworks = 'BanubaVideoEditorSDK.xcframework'
   s.module_name = 'BanubaVideoEditorSDK'
-
-  s.subspec 'BanubaARCloudSDK' do |subspec|
-    subspec.frameworks = 'Foundation', 'UIKit'
-    subspec.platform     = :ios, '11.0'
-    subspec.source_files   = "BanubaVideoEditorSDK/BanubaARCloudSDK/**/*.{h,m,swift}"
-    subspec.public_header_files = "BanubaVideoEditorSDK/BanubaARCloudSDK/*.{h}"
-    subspec.header_dir = "BanubaARCloudSDK"
-  end
 
   #s.static_framework = true
 end
