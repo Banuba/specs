@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   # s.resources = 'Pod/Assets/*'
 
-  s.frameworks = 'UIKit', 'Foundation', 'os.log', 'FirebaseDatabase'
+  s.frameworks = 'UIKit', 'Foundation', 'FirebaseDatabase'
   s.vendored_frameworks = 'BanubaTokenStorageSDK.framework'
   s.module_name = 'BanubaTokenStorageSDK'
 
