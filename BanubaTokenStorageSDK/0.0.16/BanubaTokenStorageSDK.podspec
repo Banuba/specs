@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   s.module_name = 'BanubaTokenStorageSDK'
 
   s.dependency 'Firebase/Database'
+  s.static_framework = true 
 
   #s.static_framework = true
 end
