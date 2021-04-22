@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name             = "BanubaVideoEditorSDK"
-  s.version          = "0.3-optional-fwk"
-  s.summary          = "BanubaVideoEditorSDK"
-  s.homepage         = "https://github.com/Banuba/BanubaVideoEditorSDK-iOS"
+  s.name             = "VideoEditor"
+  s.version          = "1.0.15.native-script"
+  s.summary          = "VideoEditor"
+  s.homepage         = "https://github.com/Banuba/VideoEditor-iOS"
   s.license          = 'MIT'
   s.author           = { "Nickolai" => "nn@banuba.com" }
-  s.source           = { :git => "https://github.com/Banuba/BanubaVideoEditorSDK-iOS.git", :branch => 'optional-fwk', :tag => s.version }
+  s.source           = { :git => "git@github.com:Banuba/VideoEditor-iOS.git", :branch => 'native-script', :tag => s.version }
   s.social_media_url = 'https://banuba.com'
 
   s.platform     = :ios, '11.0'
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   # s.resources = 'Pod/Assets/*'
 
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'AVKit', 'OpenGLES', 'CoreMedia', 'CoreVideo', 'GLKit', 'Photos'
-  s.vendored_frameworks = 'BanubaVideoEditorSDK.xcframework'
-  s.module_name = 'BanubaVideoEditorSDK'
+  s.vendored_frameworks = 'VideoEditor.framework'
+  s.module_name = 'VideoEditor'
 
   #s.static_framework = true
 end
