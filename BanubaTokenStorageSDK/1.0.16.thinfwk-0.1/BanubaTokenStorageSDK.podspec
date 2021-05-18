@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BanubaTokenStorageSDK"
-  s.version          = "1.0.16_ThinFWK_0.1"
+  s.version          = "1.0.16.thinfwk-0.1"
   s.summary          = "BanubaTokenStorageSDK"
   s.homepage         = "https://github.com/Banuba/BanubaTokenStorageSDK-iOS"
   s.license          = 'MIT'
