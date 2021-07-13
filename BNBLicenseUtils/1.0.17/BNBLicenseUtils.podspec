@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "BNBLicenseUtils-iOS"
+  s.name             = "BNBLicenseUtils"
   s.version          = "1.0.17"
   s.summary          = "BNBLicenseUtils"
   s.homepage         = "https://github.com/Banuba/BNBLicenseUtils-iOS"
