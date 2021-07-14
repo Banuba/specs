@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BanubaLicenseServicingSDK"
-  s.version          = "0.3.beta"
+  s.version          = "1.0.17"
   s.summary          = "BanubaLicenseServicingSDK"
   s.homepage         = "https://github.com/Banuba/BanubaLicenseServicingSDK"
   s.license          = 'MIT'
