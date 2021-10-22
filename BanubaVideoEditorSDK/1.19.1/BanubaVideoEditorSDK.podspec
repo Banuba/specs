@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BanubaVideoEditorSDK"
-  s.version          = "1.19.1.0"
+  s.version          = "1.19.1"
   s.summary          = "BanubaVideoEditorSDK"
   s.homepage         = "https://github.com/Banuba/BanubaVideoEditorSDK-iOS"
   s.license          = 'MIT'

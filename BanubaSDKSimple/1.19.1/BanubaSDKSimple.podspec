@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BanubaSDKSimple"
-  s.version          = "1.19.1.0"
+  s.version          = "1.19.1"
   s.summary          = "BanubaSDKSimple"
   s.homepage         = "https://github.com/Banuba/BanubaSDKSimple-iOS"
   s.license          = 'MIT'
