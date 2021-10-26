@@ -16,7 +16,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation'
   s.vendored_frameworks = 'BanubaTokenStorageSDK.xcframework'
   s.module_name = 'BanubaTokenStorageSDK'
-
-  s.dependency 'Firebase/Database'
  
 end
