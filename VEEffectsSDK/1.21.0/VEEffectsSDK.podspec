@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name             = "BanubaVideoEditorEffectsSDK"
+  s.name             = "VEEffectsSDK"
   s.version          = "1.21.0"
-  s.summary          = "BanubaVideoEditorEffectsSDK"
+  s.summary          = "VEEffectsSDK"
   s.homepage         = "https://github.com/Banuba/VEEffectsSDK-iOS"
   s.license          = 'MIT'
   s.author           = { "Nickolai" => "nn@banuba.com" }
