@@ -15,17 +15,4 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'AVKit', 'OpenGLES', 'CoreMedia', 'CoreVideo', 'GLKit', 'Photos'
   s.vendored_frameworks = 'BanubaSDK.xcframework'
   s.module_name = 'BanubaSDK'
-
-sdk_version = '1.9.1'
-s.dependency 'BNBSdkCore', sdk_version
-s.dependency 'BNBSdkApi', sdk_version
-s.dependency 'BNBEffectPlayer', sdk_version
-s.dependency 'BNBScripting', sdk_version
-s.dependency 'BNBLips', sdk_version
-s.dependency 'BNBHair', sdk_version
-s.dependency 'BNBEyes', sdk_version
-s.dependency 'BNBBackground', sdk_version
-s.dependency 'BNBSkin', sdk_version
-s.dependency 'BNBVisualClip', sdk_version
-
 end
