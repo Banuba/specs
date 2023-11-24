@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.dependency 'BNBBackground', sdk_version
   s.dependency 'BNBSkin', sdk_version
 
-  ve_version = '1.32.1'
+  ve_version = '~> 1.32'
   s.dependency 'BanubaUtilities', ve_version
   s.dependency 'BanubaLicenseServicingSDK', ve_version
 end
