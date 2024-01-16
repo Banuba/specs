@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_versions = '5.0'
   
-  s.dependency 'lottie-ios', '3.4.3'
+  s.dependency 'lottie-ios', '4.3.4'
 
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'AVKit', 'CoreMedia', 'CoreVideo', 'Photos'
   s.vendored_frameworks = 'ChatBot.xcframework'
