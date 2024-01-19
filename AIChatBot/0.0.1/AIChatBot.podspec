@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/Banuba/AIChatBot-iOS"
   s.license          = 'MIT'
   s.author           = { "Nickolai" => "nn@banuba.com" }
-  s.source           = { :git => "git@github.com:Banuba/AIChatBot-iOS.git", :tag => s.version }
+  s.source           = { :git => "https://github.com:Banuba/AIChatBot-iOS.git", :tag => s.version }
   s.social_media_url = 'https://banuba.com'
 
   s.platform     = :ios, '15.0'
