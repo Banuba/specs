@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BanubaSDK.xcframework'
   s.module_name = 'BanubaSDK'
 
-  sdk_version = '~> 1.13.0'
+  sdk_version = '~> 1.14.0'
   s.dependency 'BNBSdkCore', sdk_version
   s.dependency 'BNBSdkApi', sdk_version
   s.dependency 'BNBEffectPlayer', sdk_version
