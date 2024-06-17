@@ -28,6 +28,5 @@ Pod::Spec.new do |s|
   s.dependency 'BNBEyes', sdk_version
   s.dependency 'BNBBackground', sdk_version
   s.dependency 'BNBSkin', sdk_version
-  s.dependency 'BNBVisualClip', sdk_version
 
 end
