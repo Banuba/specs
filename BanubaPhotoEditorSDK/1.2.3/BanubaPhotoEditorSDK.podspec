@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BanubaPhotoEditorSDK.xcframework'
   s.module_name = 'BanubaPhotoEditorSDK'
 
-  sdk_version = '~> 1.14.0'
+  sdk_version = '~> 1.14.1'
   s.dependency 'BNBSdkCore', sdk_version
   s.dependency 'BNBSdkApi', sdk_version
   s.dependency 'BNBEffectPlayer', sdk_version
