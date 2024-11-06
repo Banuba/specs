@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BanubaSDKLight"
-  s.version          = "1.38.0"
+  s.version          = "1.39.0"
   s.summary          = "Lightweight version of BanubaSDK"
   s.homepage         = "https://github.com/Banuba/BanubaSDK-iOS"
   s.license          = 'MIT'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BanubaSDK.xcframework'
   s.module_name = 'BanubaSDK'
 
-  sdk_version = '~> 1.14.1'
+  sdk_version = '~> 1.16.0'
   s.dependency 'BNBSdkCore', sdk_version
   s.dependency 'BNBSdkApi', sdk_version
 
