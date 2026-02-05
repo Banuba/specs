@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_versions = '5.0'
   
-  s.resource_bundles = {"BanubaGenAIVideosSDK" => ["BanubaGenAIVideos/PrivacyInfo.xcprivacy"]}
+  s.resource_bundles = {"BanubaGenAIVideos" => ["BanubaGenAIVideos/PrivacyInfo.xcprivacy"]}
 
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'AVKit'
-  s.vendored_frameworks = 'BanubaGenAIVideosSDK.xcframework'
+  s.vendored_frameworks = 'BanubaGenAIVideos.xcframework'
   s.module_name = 'BanubaGenAIVideos'
 
   s.dependency 'BanubaLicenseServicingSDK', s.version.to_s
