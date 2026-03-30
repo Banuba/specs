@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BanubaSDKLight"
-  s.version          = "1.51.0"
+  s.version          = "1.51.0-beta.0"
   s.summary          = "The Lightweight version of BanubaSDK"
   s.homepage         = "https://github.com/Banuba/BanubaSDKLight-iOS"
   s.license          = 'MIT'
