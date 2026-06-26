@@ -1,0 +1,28 @@
+Pod::Spec.new do |s|
+  s.name             = "BanubaUtilities"
+  s.version          = "1.53.0"
+  s.summary          = "BanubaUtilities"
+  s.homepage         = "https://github.com/Banuba/BanubaUtilities"
+  s.license          = 'MIT'
+  s.author           = { 'Banuba Limited' => 'info@banuba.com' }
+  s.source           = { :http => "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaUtilities/1.53.0/BanubaUtilities-1.53.0.xcframework.zip", :type => "zip" }
+  s.social_media_url = 'https://banuba.com'
+
+  s.platform     = :ios, '15.0'
+  s.requires_arc = true
+
+  s.swift_versions = '5.0'
+  
+  s.resource_bundles = {
+    "BanubaUtilities" => [
+      "BanubaUtilities/PrivacyInfo.xcprivacy",
+      "BanubaUtilities/Resources/Localization/BanubaBase.strings",
+    ]
+  }
+
+  s.frameworks = 'Security'
+  s.vendored_frameworks = 'BanubaUtilities.xcframework'
+  s.module_name = 'BanubaUtilities'
+
+  s.dependency 'BanubaDesignSystem', '>= 1.0.0'
+end
