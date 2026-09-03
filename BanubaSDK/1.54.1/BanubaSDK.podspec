@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
   s.dependency 'BNBBackground', sdk_version
   s.dependency 'BNBSkin', sdk_version
 
-  s.dependency 'BanubaUtilities', '>= 1.54.2'
-  s.dependency 'BanubaVideoEditorCore', '>= 1.54.2'
+  s.dependency 'BanubaUtilities', '>= 1.54.1'
+  s.dependency 'BanubaVideoEditorCore', '>= 1.54.1'
 end

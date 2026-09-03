@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.module_name = 'BanubaVideoEditorSDK'
 
   s.dependency 'BanubaDesignSystem', '>= 1.0.4'
-  s.dependency 'BanubaLicenseServicingSDK', '>= 1.54.2'
-  s.dependency 'BanubaUtilities', '>= 1.54.2'
-  s.dependency 'BanubaVideoEditorCore', '>= 1.54.2'
+  s.dependency 'BanubaLicenseServicingSDK', '>= 1.54.1'
+  s.dependency 'BanubaUtilities', '>= 1.54.1'
+  s.dependency 'BanubaVideoEditorCore', '>= 1.54.1'
 end

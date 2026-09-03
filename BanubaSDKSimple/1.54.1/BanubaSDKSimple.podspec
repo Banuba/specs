@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BanubaSdkSimple.xcframework'
   s.module_name = 'BanubaSdkSimple'
 
-  s.dependency 'BanubaUtilities', '>= 1.54.2'
-  s.dependency 'BanubaVideoEditorCore', '>= 1.54.2'
+  s.dependency 'BanubaUtilities', '>= 1.54.1'
+  s.dependency 'BanubaVideoEditorCore', '>= 1.54.1'
 end

@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BanubaARCloudSDK.xcframework'
   s.module_name = 'BanubaARCloudSDK'
   
-  s.dependency 'BanubaUtilities', '>= 1.54.2'
+  s.dependency 'BanubaUtilities', '>= 1.54.1'
 end
