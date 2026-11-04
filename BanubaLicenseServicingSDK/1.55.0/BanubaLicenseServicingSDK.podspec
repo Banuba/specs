@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BanubaLicenseServicingSDK.xcframework'
   s.module_name = 'BanubaLicenseServicingSDK'
 
-  s.dependency 'BNBLicenseUtils', '>= 1.55.0'
+  s.dependency 'BNBLicenseUtils', '== 1.53.1'
 end
